@@ -1,0 +1,12 @@
+{
+  "name": "heyat-theme",
+  "version": "1.0.0",
+  "description": "Heyat WordPress Theme",
+  "main": "index.php",
+  "scripts": {
+    "build:css": "tailwindcss -i css/tailwind-input.css -o css/tailwind.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
